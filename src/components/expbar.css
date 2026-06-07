@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'MC';
+    src: url('../fonts/MinecraftRegular-Bmg3.otf') format("opentype");
+}
+
+body {
+    margin: 0;
+}
+.expContainer {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barContainer {
+    width: 364px;
+    height: 10px;
+}
+.bar {
+    width: 364px;
+    position: absolute;
+}
+
+.bar img {
+    width: 100%;
+    height: 10px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.level {
+    font-family: 'MC', monospace;
+}
+
+#fullBar {
+    /* width: 200px; */
+}
