@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className='mainContainer'>
-      <EXPBar level={3} percent={0.6}/>
+      <EXPBar level={3} percent={0}/>
     </div>
   )
 }
